@@ -1,10 +1,9 @@
-function add(n1: number, n2: number) {
-    return n1 + n2;
+const  person = {
+//     name: string;
+//     age: number
+// } = {
+    name: 'Winston',
+    age: 29
 }
 
-const n1 = 5;
-const n2 = 2.8;
-
-const result = add(n1, n2);
-
-console.log(result);
+console.log(person.name)
